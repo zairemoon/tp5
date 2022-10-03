@@ -32,11 +32,11 @@ body {
 }
 
 #titleBanner h1.tp {
-  font-size: 200%;
+  font-size: 400%;
 }
 
-#titleBanner h1.black {
-  color: #000000;
+#titleBanner h1.pink {
+  color: #ff0a54;
 }
 
 #recipeColumns {
