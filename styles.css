@@ -20,8 +20,8 @@ body {
 
 #titleBanner h1 {
   font-family: 'Playfair Display', serif;
-  color: white;
-  font-size: 100px;
+  color: #FFFFFF;
+  font-size: 500%;
   top: 75px;
   padding: 0;
   margin: 0 0 2vw 2vw;
@@ -29,6 +29,14 @@ body {
   text-align: center;
   text-transform: uppercase;
   line-height: 100%;
+}
+
+#titleBanner h1.tp {
+  font-size: 200%;
+}
+
+#titleBanner h1.black {
+  color: #000000;
 }
 
 #recipeColumns {
@@ -49,6 +57,20 @@ body {
 
 #recipeColumns div#directions {
   flex-basis: 50%;
+}
+
+/*hide the columns at first */
+
+#recipeColumns #ingredients ul,
+#recipeColumns #equipment ul,
+#recipeColumns #directions ol {
+  display: none;
+}
+
+#recipeColumns #ingredients.tpShow ul,
+#recipeColumns #equipment.tpShow ul,
+#recipeColumns #directions.tpShow ol {
+  display: block;
 }
 
 #recipeColumns ul,
